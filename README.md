@@ -40,11 +40,11 @@ This is the profile folder where you will find logs and where you put all server
 If you want to change the map, edit the `DZ_server_params.ini` and add the line 
 `mission = "path/to/your/mission"`
  
-additionally edit the DZ_server.cfg and change the template to match your desired map. 
+additionally edit the `DZ_server.cfg` and change the template to match your desired map. 
 (See bottom of `DZ_server.cfg`)
  
 ## SCRIPTING
-If you use scripting and within your scripts refer to $CurrentDir when including other scripts your missions directory must be a subdirectory of the DayZ install directory since $CurrentDir always points to that dir. Otherwhise your map can be wherever you want as long as you use an absolute path for the param `mission` in the ini file.
+If you use scripting and within your scripts refer to `$CurrentDir` when including other scripts your missions directory must be a subdirectory of the DayZ install directory since `$CurrentDir` always points to that dir. Otherwhise your map can be wherever you want as long as you use an absolute path for the param `mission` in the ini file.
  
 ## MODS
 Edit the `DZ_server_params.ini` to add mods. (one per line)
