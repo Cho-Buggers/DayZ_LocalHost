@@ -47,6 +47,6 @@ additionally edit the DZ_server.cfg and change the template to match your desire
 If you use scripting and within your scripts refer to $CurrentDir when including other scripts your missions directory must be a subdirectory of the DayZ install directory since $CurrentDir always points to that dir. Otherwhise your map can be wherever you want as long as you use an absolute path for the param `mission` in the ini file.
  
 ## MODS
-Edit the DZ_server_params.ini to add mods. (one per line)
+Edit the `DZ_server_params.ini` to add mods. (one per line)
 Notice that your mods need to be relative to the DayZ install directory.
 That means you have to include the workshop directory as well: `!Workshop\@YourMod`
